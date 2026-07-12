@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "TaskFlow",
+    "slug": "taskflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.frafuri.taskflow",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.frafuri.taskflow"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "icon": "https://appspawn-gateway-production.up.railway.app/v1/assets/cbd03a4d-f1e7-4a9f-9809-123175d1fe8a/icon.png",
+    "owner": "frafuri",
+    "extra": {
+      "eas": {
+        "projectId": "33b28e01-b6dd-4da3-a6d8-57d47fe30d2c"
+      },
+      "vibestudio": {
+        "proxy": "https://appspawn-gateway-production.up.railway.app/v1/app-proxy/cbd03a4d-f1e7-4a9f-9809-123175d1fe8a",
+        "key": "83dd52fcc2f2f5370390e93ca63c6eab562db6a1"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/33b28e01-b6dd-4da3-a6d8-57d47fe30d2c",
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0,
+      "requestHeaders": {
+        "expo-channel-name": "production"
+      }
+    },
+    "runtimeVersion": "1.0.0"
+  }
+}

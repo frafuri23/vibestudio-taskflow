@@ -1,0 +1,11 @@
+{
+  "steps": [
+    { "expect": "TaskFlow" },
+    { "tap": "Oggi" },
+    { "expect": "Preparare la presentazione per il team" },
+    { "tap": "Preparare la presentazione per il team" },
+    { "expect": "Segna come completata" },
+    { "tap": "Segna come completata" },
+    { "expect": "Segna come da fare" }
+  ]
+}
